@@ -10,6 +10,8 @@
 
 If you're an anime fan, dive deeper into the world of anime, one blog at a time. This is an Anime blogging web application built using Next.js and Strapi Headless CMS.
 
+The Strapi backend is hosted at https://strapi-animeaza.herokuapp.com/. Github Repo : https://github.com/pinkman7009/strapi-animeaza
+
 ## Built with
 
 1. <a href='https://nextjs.org/'>next.js v10 with react v17</a>: Routing made much easier with Next.js and also image optimization provided by next/image.
