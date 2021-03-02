@@ -1,0 +1,147 @@
+.blogContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.blogCard {
+  position: relative;
+
+  background: #ffffff;
+  margin: 2rem auto;
+  border-radius: 10px;
+  min-height: 200px;
+  width: 70%;
+  color: #000;
+  display: flex;
+}
+.cardContent {
+  width: 60%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.readTime {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  background: #fff;
+  border: #ff7a00 solid 5px;
+  padding: 0.5rem;
+  width: 100px;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.paraText {
+  margin: 1rem 0;
+  font-size: 1.3rem;
+}
+
+.bolded {
+  font-weight: bolder;
+  font-size: 1.7rem;
+  margin: 1rem 0;
+}
+
+.btn {
+  display: block;
+  width: 40%;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 1rem;
+  margin: 2rem auto;
+  text-align: center;
+  font-weight: 400;
+  transition: all 0.3s ease;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btnDark {
+  background: #000000;
+  width: 50%;
+}
+
+.btnPrimary {
+  width: 10%;
+  background: #ff7a00;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.container {
+  max-width: 1500px;
+  margin: auto;
+  /* display: flex; */
+}
+
+.blogContent {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+  margin: 2rem auto;
+  padding: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  .blogContent {
+    padding: 1rem;
+    width: 90%;
+  }
+  .paraText {
+    font-size: 1rem;
+  }
+  .bolded {
+    font-size: 1.2rem;
+  }
+  .btnPrimary {
+    width: 40%;
+  }
+  .blogCard {
+    flex-direction: column;
+    width: 90%;
+  }
+  .cardContent {
+    width: 100%;
+  }
+  .readTime {
+    top: 0;
+    left: 0;
+    bottom: inherit;
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .blogCard {
+    flex-direction: column;
+    width: 90%;
+  }
+  .cardContent {
+    width: 100%;
+  }
+}
