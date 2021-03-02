@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import styles from '../../styles/Blogs.module.css';
+import { BeatLoader } from 'react-spinners';
 import BlogItem from '../../components/blogs/BlogItem';
 
 const getPost = async (id) => {
@@ -30,7 +31,11 @@ const post = (props) => {
   const router = useRouter();
 
   if (router.isFallback) {
-    return <h3>Loading...</h3>;
+    return (
+      <div className={styles.loader}>
+        <BeatLoader loading={true} size={30} color='orange' />
+      </div>
+    );
   }
   return (
     <div>

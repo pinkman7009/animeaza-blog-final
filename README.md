@@ -1,34 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
+[![GitHub forks](https://img.shields.io/github/forks/saswatamcode/the_shoppies?style=social)](https://GitHub.com/pinkman7009/animeaza-blog-final/network/)
+[![GitHub stars](https://img.shields.io/github/stars/saswatamcode/the_shoppies?style=social)](https://GitHub.com/pinkman7009/animeaza-blog-final/stargazers/)
+[![GitHub issues](https://img.shields.io/github/issues/saswatamcode/the_shoppies.svg)](https://GitHub.com/pinkman7009/animeaza-blog-final/issues/)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-## Getting Started
+# Animeaza | The Anime Blog
 
-First, run the development server:
+If you're an anime fan, dive deeper into the world of anime, one blog at a time. This is an Anime blogging web application built using Next.js and Strapi Headless CMS.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Built with
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. <a href='https://nextjs.org/'>next.js v10 with react v17</a>: Routing made much easier with Next.js and also image optimization provided by next/image.
+2. <a href='https://strapi.io/'>Strapi Headless CMS</a>: Used for storing and adding blog articles with the Content type of blogs containing title,author,content,etc.
+3. <a href='https://cloudinary.com/'>Cloudinary</a>: Used for storing and uploading images for the Strapi backend.
+4. <a href='https://www.npmjs.com/package/react-spinners'>react-spinners</a>: For loading animations
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Screenshots
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Landing page
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<img src='./public/landingpage.png'>
 
-## Learn More
+### Blogs page
 
-To learn more about Next.js, take a look at the following resources:
+<img src='./public/blogs.png'>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### About page
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<img src='./public/aboutpage.png'>
 
-## Deploy on Vercel
+## To Run
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone into repo
+2. Run `npm install`
+3. Run `npm run dev`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Live Demo
+
+https://animeaza-blog-final.vercel.app/
