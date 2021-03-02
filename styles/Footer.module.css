@@ -1,0 +1,16 @@
+.footer {
+  background: #000;
+  color: #fff;
+  height: 100px;
+  min-width: 100vw;
+}
+
+.footerWrapper {
+  max-width: 1500px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+}

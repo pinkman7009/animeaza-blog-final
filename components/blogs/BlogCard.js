@@ -20,7 +20,7 @@ const BlogCard = ({ post }) => {
           Written by <strong>{post.author}</strong>
         </p>
         <p className={styles.paraText}>{post.excerpt}</p>
-        <Link href='/blogs/post'>
+        <Link href='/blogs/[id]' as={`/blogs/${post.id}`}>
           <a className={`${styles.btn} ${styles.btnDark}`}>Read More</a>
         </Link>
       </div>
